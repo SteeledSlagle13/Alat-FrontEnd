@@ -1,0 +1,18 @@
+body {
+	background-image: url('../images/logoBG.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #191919;
+	background-attachment: fixed;
+	font-family: 'Teko';
+	z-index: -100; 
+}
+
+.banner {
+    height: 549px;
+}
+
+.banner.wraith {
+    background-image: url('../images/wraith.jpg');
+    height: 549px;
+}
