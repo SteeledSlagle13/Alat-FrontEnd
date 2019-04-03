@@ -17,7 +17,7 @@
         self.edit = edit;
         self.newWeapon = newWeapon;
         self.remove = remove;
-//        self.reset = reset;
+        self.reset = reset;
         self.selectWeapon = selectWeapon;
         self.submit = submit;
 
@@ -72,6 +72,7 @@
                         console.error('Error deleting Weapon');
                     }
                 );
+            $('#weaponEditor').modal('hide');
         }
 
         function submit() {

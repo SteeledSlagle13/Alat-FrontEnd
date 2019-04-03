@@ -11,7 +11,7 @@
 		<div class="row">
 			<div class="col-xl" style="padding: 2%;"
 				ng-repeat="legend in ctrl.legends">
-				<div class="card border-primary" style="width: 12rem;">
+				<a class="card border-primary" style="width: 12rem;"  href="http://www.google.com">
 					<img class="card-img-top" height="225px"
 						ng-src="{{legend.imageSource}}">
 					<div class="card-body">
@@ -20,7 +20,7 @@
 							Role : <span class="badge badge-light" id="legendRole">{{legend.role}}</span>
 						</p>
 					</div>
-				</div>
+				</a>
 			</div>
 		</div>
 	</div>

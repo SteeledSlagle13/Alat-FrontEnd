@@ -19,9 +19,9 @@ import com.apexlegendsat.springmvc.frontend.view.LegendView;
 
 @RestController
 @RequestMapping(value = "legend")
-public class ALATLegendRestController {
+public class RestLegendController {
 
-	static Logger logger = LogManager.getLogger(ALATLegendRestController.class.getName());
+	static Logger logger = LogManager.getLogger(RestLegendController.class.getName());
 
 	@Autowired
 	private LegendManager legendManager;

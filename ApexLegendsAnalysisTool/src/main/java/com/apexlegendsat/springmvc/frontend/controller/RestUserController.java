@@ -19,9 +19,9 @@ import com.apexlegendsat.springmvc.frontend.view.UserView;
 
 @RestController
 @RequestMapping(value = "user")
-public class ALATUserRestController {
+public class RestUserController {
 
-	static Logger logger = LogManager.getLogger(ALATUserRestController.class.getName());
+	static Logger logger = LogManager.getLogger(RestUserController.class.getName());
 
 	@Autowired
 	private UserManager userService;

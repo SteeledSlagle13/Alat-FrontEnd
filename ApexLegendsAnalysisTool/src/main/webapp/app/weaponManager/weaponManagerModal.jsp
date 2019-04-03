@@ -41,21 +41,17 @@
 						<div class="form-group">
 							<select class="image-picker">
 								<option
-									data-img-src="/ApexLegendsAnalysisTool/app/images/smg/smg.png">1</option>
+									data-img-src="/ApexLegendsAnalysisTool/app/images/ar/ar.png">1</option>
 								<option
-									data-img-src="/ApexLegendsAnalysisTool/app/images/smg/smg.png">2</option>
+									data-img-src="/ApexLegendsAnalysisTool/app/images/lmg/lmg.png">2</option>
 								<option
-									data-img-src="/ApexLegendsAnalysisTool/app/images/smg/smg.png">3</option>
+									data-img-src="/ApexLegendsAnalysisTool/app/images/pistol/pistol.png">3</option>
 								<option
-									data-img-src="/ApexLegendsAnalysisTool/app/images/smg/smg.png">4</option>
+									data-img-src="/ApexLegendsAnalysisTool/app/images/shotgun/shotgun.png">4</option>
 								<option
 									data-img-src="/ApexLegendsAnalysisTool/app/images/smg/smg.png">5</option>
 								<option
-									data-img-src="/ApexLegendsAnalysisTool/app/images/smg/smg.png">6</option>
-								<option
-									data-img-src="/ApexLegendsAnalysisTool/app/images/smg/smg.png">7</option>
-								<option
-									data-img-src="/ApexLegendsAnalysisTool/app/images/smg/smg.png">8</option>
+									data-img-src="/ApexLegendsAnalysisTool/app/images/sniper/sniper.png">6</option>
 							</select>
 							<script type="text/javascript">
 								$('.image-picker').imagepicker();
@@ -76,7 +72,7 @@
 			</div>
 			<div class="modal-footer">
 				<button type="button" class="btn btn-secondary" data-dismiss="modal"
-					ng-click="ctrl.reset()">Close {{4+3}}</button>
+					ng-click="ctrl.reset()">Close</button>
 				<button type="submit" ng-click="ctrl.submit()"
 					class="btn btn-primary">{{!ctrl.weaponEdit.id ? 'Add' :
 					'Update'}}</button>

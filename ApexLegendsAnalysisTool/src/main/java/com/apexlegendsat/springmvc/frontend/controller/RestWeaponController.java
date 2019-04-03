@@ -19,9 +19,9 @@ import com.apexlegendsat.springmvc.frontend.view.WeaponView;
 
 @RestController
 @RequestMapping(value = "weapon")
-public class ALATWeaponRestController {
+public class RestWeaponController {
 
-	static Logger logger = LogManager.getLogger(ALATWeaponRestController.class.getName());
+	static Logger logger = LogManager.getLogger(RestWeaponController.class.getName());
 
 	@Autowired
 	private WeaponManager weaponService;

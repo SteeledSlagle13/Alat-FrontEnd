@@ -2,7 +2,7 @@
 
 angular.module('legendManagerApp').factory('LegendService', ['$http', function($http){
 
-    var REST_SERVICE_URI = 'http://localhost:8085/ApexLegendsAnalysisTool/legend/';
+    var REST_SERVICE_URI = 'http://localhost:8086/ApexLegendsAnalysisTool/legend/';
 
     var factory = {
         fetchAllLegends: fetchAllLegends,

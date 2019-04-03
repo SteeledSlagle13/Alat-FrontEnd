@@ -2,7 +2,7 @@
 
 angular.module('WeaponChartApp').factory('GetWeaponService', ['$http', function($http){
 
-    var REST_SERVICE_URI = 'http://localhost:8085/ApexLegendsAnalysisTool/weapon/';
+    var REST_SERVICE_URI = 'http://localhost:8086/ApexLegendsAnalysisTool/weapon/';
 
     var factory = {
         fetchAllWeapons: fetchAllWeapons,
